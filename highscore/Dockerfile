@@ -10,5 +10,5 @@ RUN mkdir -p /app/db/GameScores
 RUN chgrp -R 0 /app/db && chmod -R g=u /app/db
 COPY --from=build /src/highscore .
 RUN ls /app
-EXPOSE 8081
+EXPOSE 8085
 CMD ["/app/highscore"]
