@@ -1,6 +1,6 @@
 module github.com/NautiluX/s3e/highscore
 
-go 1.13
+go 1.25.1
 
 require (
 	github.com/bradfitz/slice v0.0.0-20180809154707-2b758aa73013
