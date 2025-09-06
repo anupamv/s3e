@@ -1,4 +1,4 @@
-FROM golang:1.24.7 AS build
+FROM golang:1.25.1 AS build
 COPY . /src
 WORKDIR /src
 RUN CGO_ENABLED=0 GOOS=linux go build
